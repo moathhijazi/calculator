@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+*{
+    font-family: 'Vina Sans', cursive;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+:root {
+    --dark : rgb(34, 34, 34) ; 
+    --dark-hover : rgb(51, 51, 51) ; 
+    --dark-focus : rgb(65, 65, 65) ; 
+}
+button {
+    width: 100px;
+    height: 100px;
+    background-color: var(--dark) ;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:var(--dark-hover) ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+#eq{
+    
+    background-color: rgb(173, 113, 1);
+    font-weight: 900;
+    
+}
+#eq:hover {
+    background-color: rgb(124, 81, 0);
+}
+.screen {
+    width: 85%;
+    background-color: silver;
+    margin: 20px auto;
+    border-radius: 10px;
+    height: 50px;
+    padding: 30px;
+    /* transition: .3s ease; */
+    font-size: 40px;
+    max-width: 420px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border: dashed 1px black;
+
+}
+.screen::-webkit-scrollbar{display: none;}
+.container {
+    background-color: rgb(49, 60, 66);
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#del {
+    background-color: rgb(105, 3, 3);
+    transition: .5s ease;
+
+}
+#del:hover {
+    position: relative;
+    top: -5px;
+    transition: .5s ease;
+}
+.screen .screen-head {
+    font-size: 15px;
+}
